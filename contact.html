@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact – BioSmart Notes</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f7f9fb;
+      color: #17252a;
+    }
+    header {
+      background: #2b7a78;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    nav {
+      background: #def2f1;
+      padding: 15px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 12px;
+      text-decoration: none;
+      color: #17252a;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 600px;
+      margin: 40px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+    form label {
+      margin: 12px 0 4px;
+      font-weight: bold;
+    }
+    form input, form textarea {
+      padding: 10px;
+      border: 1px solid #cce7e6;
+      border-radius: 6px;
+      font-size: 16px;
+      resize: vertical;
+    }
+    form button {
+      margin-top: 20px;
+      padding: 12px;
+      border: none;
+      background: #2b7a78;
+      color: white;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    form button:hover {
+      background: #276666;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #17252a;
+      color: white;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Contact BioSmart Notes</h1>
+    <p>We'd love to hear from you!</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="class12.html">Class 12 Notes</a>
+    <a href="class11.html">Class 11 Notes</a>
+    <a href="mcq.html">MCQs</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <div class="container">
+    <h2>Drop a Message</h2>
+    <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="6" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+    <p style="margin-top: 20px; font-size: 14px;">
+      Alternatively, you can reach me at: <br />
+      <strong>your-email@example.com</strong>
+    </p>
+  </div>
+
+  <footer>
+    © 2025 BioSmart Notes | Powered by GitHub Pages
+  </footer>
+</body>
+</html>
